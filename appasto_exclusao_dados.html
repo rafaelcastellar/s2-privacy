@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusão de Conta - Appasto</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #C0C41C;
+        }
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #C0C41C;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section h2 {
+            color: #C0C41C;
+            border-left: 4px solid #C0C41C;
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+        .steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .step {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border-left: 3px solid #C0C41C;
+        }
+        .step-number {
+            font-weight: bold;
+            color: #C0C41C;
+        }
+        .email-box {
+            background: #e8f4fd;
+            border: 2px solid #C0C41C;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .email-link {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #C0C41C;
+            text-decoration: none;
+        }
+        .email-link:hover {
+            text-decoration: underline;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .warning-icon {
+            color: #856404;
+            font-weight: bold;
+        }
+        .data-list {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .data-list ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            .logo {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">APPASTO</div>
+            <div class="subtitle">Solicitação de Exclusão de Conta e Dados</div>
+        </div>
+
+        <div class="section">
+            <h2>📋 Informações Importantes</h2>
+            <p>Esta página permite que usuários do <strong>Appasto</strong> solicitem a exclusão completa de sua conta e todos os dados associados. O <strong>Appasto</strong> é um simulador de produtividade bovina desenvolvido para ajudar produtores rurais.</p>
+        </div>
+
+        <div class="section">
+            <h2>🔒 Como Solicitar a Exclusão</h2>
+            <div class="steps">
+                <div class="step">
+                    <span class="step-number">1.</span> 
+                    <strong>Identifique sua conta:</strong> Anote o nome da propriedade e o e-mail cadastrado no Appasto.
+                </div>
+                <div class="step">
+                    <span class="step-number">2.</span> 
+                    <strong>Envie o e-mail:</strong> Clique no link abaixo para enviar uma solicitação de exclusão.
+                </div>
+                <div class="step">
+                    <span class="step-number">3.</span> 
+                    <strong>Inclua as informações:</strong> No e-mail, informe o nome da propriedade e o e-mail cadastrado.
+                </div>
+                <div class="step">
+                    <span class="step-number">4.</span> 
+                    <strong>Aguarde confirmação:</strong> Você receberá uma confirmação em até 15 dias úteis.
+                </div>
+            </div>
+
+            <div class="email-box">
+                <p><strong>Envie sua solicitação para:</strong></p>
+                <a href="mailto:suporte@appasto.com.br?subject=Solicitação de Exclusão de Conta - Appasto&body=Olá,%0D%0A%0D%0AGostaria de solicitar a exclusão completa da minha conta e dados do Appasto.%0D%0A%0D%0ADados da conta:%0D%0A- Nome da propriedade: [INFORME AQUI]%0D%0A- E-mail cadastrado: [INFORME AQUI]%0D%0A%0D%0AAtenciosamente," class="email-link">
+                    suporte@appasto.com.br
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🗑️ Dados que Serão Excluídos</h2>
+            <div class="data-list">
+                <p><strong>Os seguintes dados serão permanentemente removidos:</strong></p>
+                <ul>
+                    <li><strong>Dados pessoais:</strong> Nome completo, e-mail, localização da propriedade</li>
+                    <li><strong>Dados de propriedade:</strong> Informações sobre lotes de gado, pastos cadastrados</li>
+                    <li><strong>Simulações:</strong> Todas as simulações de produtividade realizadas</li>
+                    <li><strong>Histórico de uso:</strong> Logs de acesso e atividades no aplicativo</li>
+                    <li><strong>Configurações:</strong> Preferências e configurações personalizadas</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>⏰ Período de Processamento</h2>
+            <p><strong>Prazo para exclusão:</strong> Até 15 dias úteis após a confirmação da solicitação.</p>
+            <p><strong>Confirmação:</strong> Você receberá um e-mail confirmando a exclusão completa dos dados.</p>
+        </div>
+
+        <div class="warning">
+            <p><span class="warning-icon">⚠️ ATENÇÃO:</span> A exclusão da conta é <strong>irreversível</strong>. Após a exclusão, não será possível recuperar seus dados ou reativar a conta. Certifique-se de fazer backup de qualquer informação importante antes de solicitar a exclusão.</p>
+        </div>
+
+        <div class="section">
+            <h2>📞 Suporte Adicional</h2>
+            <p>Se você tiver dúvidas sobre o processo de exclusão ou precisar de esclarecimentos, entre em contato conosco:</p>
+            <p><strong>E-mail:</strong> suporte@appasto.com.br</p>
+            <p><strong>Assunto:</strong> Dúvidas sobre Exclusão de Conta</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>Appasto</strong> - Simulador de Produtividade Bovina</p>
+            <p>Esta página está em conformidade com a LGPD e as diretrizes do Google Play Store</p>
+            <p>Última atualização: 14 de outubro de 2024</p>
+        </div>
+    </div>
+</body>
+</html>
